@@ -1,0 +1,52 @@
+body{
+  box-sizing : border-box;
+  min-height:100vh;
+}
+h2{
+  background-color : #5F7A61;
+  font-size:33px;
+  padding : 10px 0;
+  text-align:center;
+  margin-top : 0;
+  
+}
+form{
+  display:flex;
+  flex-direction:column;
+  width : 45vw;
+  box-shadow :0px 8px 16px 0px rgba(0,0,0,0.75);
+  margin : 33px;
+  border-radius:6px;
+}
+
+form div span{
+  background-color : #5F7A61;
+  font-size:24px;
+  padding:0.1em;
+  border-radius:6px;
+}
+  
+form div{
+  display: flex;
+  justify-content : space-between;
+  padding : 10px;
+}
+
+button{
+  all: unset;
+  text-align:center;
+  font-size: 24px;
+  margin : 20px;
+  border-radius:6px;
+  background-color : #5F7A61;
+  color:inherit;
+}
+
+button:hover{
+  cursor:pointer;
+  background-color:#4f5f50;
+}
+
+input{
+  font-size: 24px;
+}
